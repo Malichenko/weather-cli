@@ -1,0 +1,33 @@
+{
+  "name": "simple-weather-cli",
+  "version": "1.0.0",
+  "description": "Weather CLI",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Malichenko/weather-cle.git"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "Oleksii Malichenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Malichenko/weather-cle/issues",
+    "email": "malichenko.al@gmail.com"
+  },
+  "homepage": "https://github.com/Malichenko/weather-cle#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "chalk": "^5.0.0",
+    "dedent-js": "^1.0.1"
+  }
+}
