@@ -9,7 +9,6 @@ export const getWeather = async () => {
 
 	if (!token) throw new Error('No API token, please setup token using -t [API_KEY]');
 	if (!city) throw new Error('City not entered, please setup token using -с [CITY]');
-	console.log('some log');
 
 	const { data } = await axios.get('https://api.openweathermap.org/data/2.5/weather', {
 		params: {
